@@ -3,7 +3,7 @@
 Truly open pageindex RAG package
 
 
-This package was inspired by [PageIndex](https://github.com/VectifyAI/PageIndex). I took inspiration from the concepts outlined and came up with my own implementation. I was not satisfied with the package as examples focus on the SaaS part of things.
+This package was inspired by [PageIndex](https://github.com/VectifyAI/PageIndex) and [pageinex-ts](https://github.com/Tandava060/pageindex-ts) I took inspiration from the concepts outlined and came up with my own implementation. I was not satisfied with the package as examples focus on the SaaS part of things.
 
 This package works by simply converting your PDFs into a tree then the most relevent section is decided and used. This contrasts with chuncking where similarity is compared using embeddings.
 
