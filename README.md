@@ -17,8 +17,8 @@ This package works by simply converting your PDFs into a tree then the most rele
 - 💾 **Persistent cache:** Markdown + tree saved separately: queries can be re-run without touching the PDF.  
 - 📄 **Markdown source:** Human-readable, diffable, and editable — not a black-box blob of vectors.  
 - 🔄 **Reusable & update-friendly:** Swap LLMs, add PDFs, or refresh sections without breaking the index.  
-- 🛠 **Clean Python API:** `build_index()`, `query()`, `load_index()` — intuitive for devs.  
-- 😍 **Production-ready design:** Modular, maintainable, and scalable for large document QA workflows.
+- 📦 **Clean Python API:** `build_index()`, `query()`, `load_index()` — intuitive for devs.  
+- 💪 **Production-ready design:** Modular, maintainable, and scalable for large document QA workflows.
 
 
 ## Quickstart
