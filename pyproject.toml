@@ -1,0 +1,38 @@
+[project]
+name = "pageindex-open"
+version = "0.1.0"
+description = "Truly open PageIndex implementation"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Abdur-Rahmaan Janhangeer" }
+]
+dependencies = [
+    "doc23>=0.1.2",
+    "litellm>=1.81.8",
+    "pymupdf>=1.26.6",
+    "pymupdf-layout>=1.26.6",
+    "pymupdf4llm>=0.2.9",
+]
+
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Intended Audience :: Developers",
+]
+
+[project.urls]
+Repository = "https://github.com/abdur-rahmaanj/pageindex-open"
+Issues = "https://github.com/abdur-rahmaanj/pageindex-open/issues"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
