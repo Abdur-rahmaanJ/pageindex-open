@@ -15,9 +15,9 @@ This package works by simply converting your PDFs into a tree then the most rele
 - 🔢 **Top-K retrieval:** Combine multiple relevant sections for richer answers, avoiding “partial context” problems.  
 - ✂️ **Text-on-demand:** Only the node text is used, no bloated storage or duplication.  
 - 💾 **Persistent cache:** Markdown + tree saved separately: queries can be re-run without touching the PDF.  
-- 📄 **Markdown source:** Human-readable, diffable, and editable — not a black-box blob of vectors.  
+- 📄 **Markdown source:** Human-readable, diffable, and editable: not a black-box blob of vectors.  
 - 🔄 **Reusable & update-friendly:** Swap LLMs, add PDFs, or refresh sections without breaking the index.  
-- 📦 **Clean Python API:** `build_index()`, `query()`, `load_index()` — intuitive for devs.  
+- 📦 **Clean Python API:** `build_index()`, `query()`, `load_index()`: intuitive for devs.  
 - 💪 **Production-ready design:** Modular, maintainable, and scalable for large document QA workflows.
 
 
